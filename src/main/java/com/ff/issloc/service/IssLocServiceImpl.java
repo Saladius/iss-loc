@@ -58,6 +58,7 @@ public class IssLocServiceImpl implements IssLocService {
 		//TODO FF il faut maintenant filtrer just les 10 résultats les plus proches
 //		il faut aussi changer les statics dans les services en properties
 //		il ne faut pas oublier non plus de rajouter le service qui récupére la longitude et latitude pour nous donner le pays.
+//		sans oublier biensur les unit-test
 		return result;
 	}
 }

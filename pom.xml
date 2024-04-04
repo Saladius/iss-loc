@@ -68,6 +68,7 @@
 				</configuration>
 			</plugin>
 		</plugins>
+		<finalName>iss-loc</finalName>
 	</build>
 
 </project>
