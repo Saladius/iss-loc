@@ -12,7 +12,7 @@ pipeline {
         }
         stage('Build') {
             steps {
-                bat 'start /B clean package'
+                 bat 'mvnw.cmd clean package'
             }
         }
         stage('Build Docker Image') {
