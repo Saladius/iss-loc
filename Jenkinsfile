@@ -12,14 +12,7 @@ pipeline {
         }
         stage('Build') {
             steps {
-                script {
-                    if (isUnix()) {
-                        sh 'nohup ./your_unix_command &'
-                    } else {
-                        // Windows specific command or an alternative approach
-                        bat 'start /B your_windows_command'
-                    }
-                }
+                bat 'start /B clean package'
             }
         }
         stage('Build Docker Image') {
