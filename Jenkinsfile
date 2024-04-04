@@ -3,6 +3,8 @@ pipeline {
     environment {
         DOCKER_IMAGE = 'saladius/iss-loc'
         DOCKER_TAG = 'latest'
+         // Adjust the path to match your Java installation
+        JAVA_HOME = 'C:\\Program Files\\Java\\jdk-17'
     }
     stages {
         stage('Checkout') {
