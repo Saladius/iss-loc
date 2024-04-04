@@ -12,7 +12,14 @@ pipeline {
         }
         stage('Build') {
             steps {
-                sh './mvnw clean package'
+                script {
+                    if (isUnix()) {
+                        sh 'nohup ./your_unix_command &'
+                    } else {
+                        // Windows specific command or an alternative approach
+                        bat 'start /B your_windows_command'
+                    }
+                }
             }
         }
         stage('Build Docker Image') {
