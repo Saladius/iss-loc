@@ -1,6 +1,5 @@
 package com.ff.issloc.dto;
 
-import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 

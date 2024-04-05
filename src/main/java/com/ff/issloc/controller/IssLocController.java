@@ -1,20 +1,16 @@
 package com.ff.issloc.controller;
 
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-import org.apache.commons.logging.Log;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.ff.issloc.dto.IssLocDto;
 import com.ff.issloc.service.IssLocService;
-import com.ff.issloc.service.WikipediaGeoSearchService;
-import com.ff.issloc.wiki.response.WikiGeoSearchResponse;
 
 import lombok.extern.slf4j.Slf4j;
 
@@ -22,8 +18,6 @@ import lombok.extern.slf4j.Slf4j;
 @Slf4j
 public class IssLocController {
 	
-	@Autowired
-	private WikipediaGeoSearchService wikipediaGeoSearchService;
 	
 	@Autowired
 	private IssLocService issLocService;
@@ -37,9 +31,7 @@ public class IssLocController {
 	        response.put("results", locations);
 	        return response;
 		 }catch (Exception e) {
-//			System.out.println(e.getMessage());
-			 e.printStackTrace();
-//			 System.out.println("un problème est survenu");
+			 log.error(e.getStackTrace()[0].toString());
 			 response.put("results", new ArrayList<IssLocDto>());
 		        return response;
 		}

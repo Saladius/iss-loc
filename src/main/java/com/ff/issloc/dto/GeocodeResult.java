@@ -1,6 +1,5 @@
 package com.ff.issloc.dto;
 
-import java.util.ArrayList;
 import java.util.List;
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
@@ -15,7 +14,7 @@ import lombok.NoArgsConstructor;
 public class GeocodeResult {
 
     @JsonProperty("results")
-    private List<Result> results = new ArrayList();
+    private List<Result> results ;
 
     @JsonIgnoreProperties(ignoreUnknown = true)
     @Data

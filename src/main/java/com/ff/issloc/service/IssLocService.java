@@ -5,8 +5,6 @@ import java.util.List;
 
 import org.springframework.stereotype.Service;
 
-import com.fasterxml.jackson.core.JsonProcessingException;
-import com.fasterxml.jackson.databind.JsonMappingException;
 import com.ff.issloc.dto.IssLocDto;
 import com.ff.issloc.dto.OpenApiIssLocDto;
 import com.ff.issloc.wiki.response.WikiGeoSearch;

@@ -35,7 +35,6 @@ public class IssLocServiceImpl implements IssLocService {
 
 	@Override
 	public List<IssLocDto> getAllLocationsNearIss() throws IOException, InterruptedException {
-		List<IssLocDto> result = new ArrayList<IssLocDto>();
 		OpenApiIssLocDto issLoc = getLocationNearIss();
 		double latitude = Double.parseDouble(issLoc.getIssPosition().getLatitude());
 		double longitude = Double.parseDouble(issLoc.getIssPosition().getLongitude());
