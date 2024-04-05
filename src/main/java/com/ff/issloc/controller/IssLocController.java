@@ -7,6 +7,7 @@ import java.util.Map;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.ff.issloc.dto.IssLocDto;
@@ -39,7 +40,17 @@ public class IssLocController {
 	 
 	 
 	 
-	 
+	 @GetMapping(path = "/test")
+	    public Map<String, List<IssLocDto>> testWithCoordinates(
+	            @RequestParam double latitude, 
+	            @RequestParam double longitude) {
+
+	        List<IssLocDto> locations = issLocService.filterAndProcessData(latitude, longitude);
+	        
+	        Map<String, List<IssLocDto>> response = new HashMap<>();
+	        response.put("results", locations);
+	        return response;
+	    }
 	 
 	 
 
