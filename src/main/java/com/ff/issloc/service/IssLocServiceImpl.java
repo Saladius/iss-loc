@@ -7,6 +7,7 @@ import java.net.http.HttpRequest;
 import java.net.http.HttpResponse;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.stream.Collectors;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
@@ -16,6 +17,7 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 import com.ff.issloc.dto.IssLocDto;
 import com.ff.issloc.dto.OpenApiIssLocDto;
 import com.ff.issloc.wiki.response.WikiGeoSearch;
+import com.ff.util.GeoUtils;
 
 @Service
 public class IssLocServiceImpl implements IssLocService {
@@ -71,12 +73,16 @@ public class IssLocServiceImpl implements IssLocService {
 	}
 
 	@Override
-	public List<WikiGeoSearch> filterListResult(List<WikiGeoSearch> result, double latitude, double longitude) {
+	public List<WikiGeoSearch> filterListResult(List<WikiGeoSearch> results, double latitude, double longitude) {
 
-		// TODO FF il faut maintenant filtrer just les 10 résultats les plus proches
-//		il faut aussi changer les statics dans les services en properties
-//		il ne faut pas oublier non plus de rajouter le service qui récupére la longitude et latitude pour nous donner le pays.
-//		sans oublier biensur les unit-test
-		return result;
+		// TODO FF il faut maintenant créer les unit-test
+		return results.stream()
+                .sorted((wis1, wis2) -> {
+                    double dist1 = GeoUtils.haversine(latitude, longitude, wis1.getLat(), wis1.getLon());
+                    double dist2 = GeoUtils.haversine(latitude, longitude, wis2.getLat(), wis2.getLon());
+                    return Double.compare(dist1, dist2);
+                })
+                .limit(10)
+                .collect(Collectors.toList());
 	}
 }
