@@ -51,6 +51,11 @@
 			<groupId>ch.qos.logback</groupId>
 			<artifactId>logback-classic</artifactId>
 		</dependency>
+		<dependency>
+			<groupId>io.github.coordinates2country</groupId>
+			<artifactId>coordinates2country</artifactId>
+			<version>1.6</version>
+		</dependency>
 	</dependencies>
 
 	<build>

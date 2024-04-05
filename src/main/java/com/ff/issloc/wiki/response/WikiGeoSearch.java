@@ -13,5 +13,4 @@ public class WikiGeoSearch {
 	    private int ns;
 	    private double dist;
 	    private String primary;
-	    private String country;
 }

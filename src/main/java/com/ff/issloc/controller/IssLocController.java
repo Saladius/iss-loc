@@ -51,11 +51,9 @@ public class IssLocController {
 	 
 	 
 
-	 @GetMapping(path = "/test")
-	    public Map<String, List<IssLocDto>> test(){
-		 List<IssLocDto> locations = new ArrayList<IssLocDto>();
-		 WikiGeoSearchResponse responseWiki = wikipediaGeoSearchService.fetchGeoSearch(34.020882, -6.841650, 1000, 20);
-		 responseWiki.getQuery().getGeoSearchList().stream().forEach(resp -> locations.add(IssLocDto.builder().latitude(resp.getLat()).longitude(resp.getLon()).title(resp.getTitle()).country("Mor").build()));
+	 @GetMapping(path = "/test/rabat")
+	    public Map<String, List<IssLocDto>> testRabat(){
+		 List<IssLocDto> locations =  issLocService.filterAndProcessData(34.020882, -6.841650);
 		 
 		 Map<String, List<IssLocDto>> response = new HashMap<>();
 	        response.put("results", locations);
