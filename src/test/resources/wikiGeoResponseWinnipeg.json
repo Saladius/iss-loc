@@ -1,0 +1,187 @@
+{
+  "batchcomplete": "",
+  "query": {
+    "geosearch": [
+      {
+        "pageid": 14825974,
+        "ns": 0,
+        "title": "Manège militaire Minto",
+        "lat": 49.890244444444,
+        "lon": -97.179269444444,
+        "dist": 422.7,
+        "primary": ""
+      },
+      {
+        "pageid": 5739040,
+        "ns": 0,
+        "title": "Winnipeg Arena",
+        "lat": 49.886944,
+        "lon": -97.197778,
+        "dist": 1045.5,
+        "primary": ""
+      },
+      {
+        "pageid": 14126618,
+        "ns": 0,
+        "title": "Stade Canad Inns",
+        "lat": 49.88957,
+        "lon": -97.19832,
+        "dist": 1109.3,
+        "primary": ""
+      },
+      {
+        "pageid": 7586525,
+        "ns": 0,
+        "title": "Musée des beaux arts de Winnipeg",
+        "lat": 49.889444444444,
+        "lon": -97.150555555556,
+        "dist": 2349.8,
+        "primary": ""
+      },
+      {
+        "pageid": 14931751,
+        "ns": 0,
+        "title": "Édifice La Baie de Winnipeg",
+        "lat": 49.89065,
+        "lon": -97.149911,
+        "dist": 2412.1,
+        "primary": ""
+      },
+      {
+        "pageid": 14124894,
+        "ns": 0,
+        "title": "Stade Osborne",
+        "lat": 49.8837,
+        "lon": -97.15,
+        "dist": 2414.3,
+        "primary": ""
+      },
+      {
+        "pageid": 76778,
+        "ns": 0,
+        "title": "Winnipeg",
+        "lat": 49.883333,
+        "lon": -97.15,
+        "dist": 2421.7,
+        "primary": ""
+      },
+      {
+        "pageid": 15986285,
+        "ns": 0,
+        "title": "Statue de la Reine Victoria (Winnipeg)",
+        "lat": 49.8853,
+        "lon": -97.1473,
+        "dist": 2582.9,
+        "primary": ""
+      },
+      {
+        "pageid": 7209900,
+        "ns": 0,
+        "title": "Palais législatif du Manitoba",
+        "lat": 49.884394,
+        "lon": -97.146918,
+        "dist": 2621.2,
+        "primary": ""
+      },
+      {
+        "pageid": 4330084,
+        "ns": 0,
+        "title": "Manitoba Hydro Place",
+        "lat": 49.8923,
+        "lon": -97.1463,
+        "dist": 2699,
+        "primary": ""
+      },
+      {
+        "pageid": 15986909,
+        "ns": 0,
+        "title": "Statue d'Élisabeth II (Winnipeg)",
+        "lat": 49.88439,
+        "lon": -97.1455,
+        "dist": 2722,
+        "primary": ""
+      },
+      {
+        "pageid": 5719305,
+        "ns": 0,
+        "title": "Osborne Village",
+        "lat": 49.8786,
+        "lon": -97.1458,
+        "dist": 2853.4,
+        "primary": ""
+      },
+      {
+        "pageid": 1923749,
+        "ns": 0,
+        "title": "Canada Life Centre",
+        "lat": 49.892973,
+        "lon": -97.1439,
+        "dist": 2882.7,
+        "primary": ""
+      },
+      {
+        "pageid": 14622245,
+        "ns": 0,
+        "title": "Centre scientifique canadien de santé humaine et animale",
+        "lat": 49.9101,
+        "lon": -97.1632,
+        "dist": 2901.3,
+        "primary": ""
+      },
+      {
+        "pageid": 5719236,
+        "ns": 0,
+        "title": "Canwest Place",
+        "lat": 49.8957,
+        "lon": -97.1393,
+        "dist": 3277.3,
+        "primary": ""
+      },
+      {
+        "pageid": 6491703,
+        "ns": 0,
+        "title": "Hôtel Fort Garry",
+        "lat": 49.887778,
+        "lon": -97.136667,
+        "dist": 3334.2,
+        "primary": ""
+      },
+      {
+        "pageid": 1716493,
+        "ns": 0,
+        "title": "Musée de l'aviation royale de l'Ouest canadien",
+        "lat": 49.901146,
+        "lon": -97.22473,
+        "dist": 3343.8,
+        "primary": ""
+      },
+      {
+        "pageid": 5719341,
+        "ns": 0,
+        "title": "Centre-ville de Winnipeg",
+        "lat": 49.895,
+        "lon": -97.138,
+        "dist": 3346.3,
+        "primary": ""
+      },
+      {
+        "pageid": 4166527,
+        "ns": 0,
+        "title": "Musée canadien pour les droits de la personne",
+        "lat": 49.893616,
+        "lon": -97.137139,
+        "dist": 3371.3,
+        "primary": ""
+      },
+      {
+        "pageid": 5719233,
+        "ns": 0,
+        "title": "Richardson Building",
+        "lat": 49.8961,
+        "lon": -97.1378,
+        "dist": 3392.9,
+        "primary": ""
+      }
+    ]
+  }
+}

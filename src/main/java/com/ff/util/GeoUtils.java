@@ -1,7 +1,7 @@
 package com.ff.util;
 
 public class GeoUtils {
-    private static final int EARTH_RADIUS_KM = 6371; // Approx Earth radius in KM
+    private static final int EARTH_RADIUS_KM = 6371;
 
     //use the Haversine formula
     public static double haversine(double lat1, double lon1, double lat2, double lon2) {

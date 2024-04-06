@@ -1,0 +1,277 @@
+{
+  "batchcomplete": "",
+  "query": {
+    "geosearch": [
+      {
+        "pageid": 15042697,
+        "ns": 0,
+        "title": "Musée national de la Poste (Maroc)",
+        "lat": 34.018933,
+        "lon": -6.83678,
+        "dist": 498.4,
+        "primary": ""
+      },
+      {
+        "pageid": 3530515,
+        "ns": 0,
+        "title": "Bank Al-Maghrib",
+        "lat": 34.0195,
+        "lon": -6.8358,
+        "dist": 560.6,
+        "primary": ""
+      },
+      {
+        "pageid": 11588879,
+        "ns": 0,
+        "title": "Rabita mohammadia des oulémas",
+        "lat": 34.025928447985,
+        "lon": -6.8431998773183,
+        "dist": 579,
+        "primary": ""
+      },
+      {
+        "pageid": 1445688,
+        "ns": 0,
+        "title": "Chambre des représentants (Maroc)",
+        "lat": 34.0175,
+        "lon": -6.83667,
+        "dist": 593.4,
+        "primary": ""
+      },
+      {
+        "pageid": 6255644,
+        "ns": 0,
+        "title": "Cour constitutionnelle (Maroc)",
+        "lat": 34.026237,
+        "lon": -6.843259,
+        "dist": 613.6,
+        "primary": ""
+      },
+      {
+        "pageid": 2983857,
+        "ns": 0,
+        "title": "Gare de Rabat-Ville",
+        "lat": 34.015999,
+        "lon": -6.837054,
+        "dist": 688.7,
+        "primary": ""
+      },
+      {
+        "pageid": 67101,
+        "ns": 0,
+        "title": "Rabat",
+        "lat": 34.025277777778,
+        "lon": -6.8361111111111,
+        "dist": 706.7,
+        "primary": ""
+      },
+      {
+        "pageid": 3674540,
+        "ns": 0,
+        "title": "Direction générale des Études et de la Documentation",
+        "lat": 34.02528,
+        "lon": -6.83611,
+        "dist": 707,
+        "primary": ""
+      },
+      {
+        "pageid": 6010069,
+        "ns": 0,
+        "title": "Salle Abderrahmane Bouânane",
+        "lat": 34.02528,
+        "lon": -6.83611,
+        "dist": 707,
+        "primary": ""
+      },
+      {
+        "pageid": 5976315,
+        "ns": 0,
+        "title": "Stade Ahmed Achhoud",
+        "lat": 34.02528,
+        "lon": -6.83611,
+        "dist": 707,
+        "primary": ""
+      },
+      {
+        "pageid": 4743528,
+        "ns": 0,
+        "title": "Festival Mawazine",
+        "lat": 34.02528,
+        "lon": -6.8361,
+        "dist": 707.7,
+        "primary": ""
+      },
+      {
+        "pageid": 5964749,
+        "ns": 0,
+        "title": "Génération Mawazine",
+        "lat": 34.02528,
+        "lon": -6.8361,
+        "dist": 707.7,
+        "primary": ""
+      },
+      {
+        "pageid": 14399433,
+        "ns": 0,
+        "title": "Ministère de la Jeunesse, de la Culture et de la Communication",
+        "lat": 34.022366,
+        "lon": -6.834146,
+        "dist": 711,
+        "primary": ""
+      },
+      {
+        "pageid": 13710382,
+        "ns": 0,
+        "title": "Muraille andalouse de Rabat",
+        "lat": 34.024138888889,
+        "lon": -6.8331111111111,
+        "dist": 866.3,
+        "primary": ""
+      },
+      {
+        "pageid": 8596934,
+        "ns": 0,
+        "title": "Musée Mohammed VI d'art moderne et contemporain",
+        "lat": 34.016122,
+        "lon": -6.832874,
+        "dist": 966.6,
+        "primary": ""
+      },
+      {
+        "pageid": 4272725,
+        "ns": 0,
+        "title": "Cathédrale Saint-Pierre de Rabat",
+        "lat": 34.017889,
+        "lon": -6.831252,
+        "dist": 1014.5,
+        "primary": ""
+      },
+      {
+        "pageid": 6052685,
+        "ns": 0,
+        "title": "Caisse marocaine des retraites",
+        "lat": 34.018716,
+        "lon": -6.830691,
+        "dist": 1038.3,
+        "primary": ""
+      },
+      {
+        "pageid": 5821784,
+        "ns": 0,
+        "title": "Ambassade d'Espagne au Maroc",
+        "lat": 34.011453,
+        "lon": -6.841344,
+        "dist": 1048.8,
+        "primary": ""
+      },
+      {
+        "pageid": 7226196,
+        "ns": 0,
+        "title": "Cimetière juif de Salé",
+        "lat": 34.0295,
+        "lon": -6.83595,
+        "dist": 1092.8,
+        "primary": ""
+      },
+      {
+        "pageid": 6414648,
+        "ns": 0,
+        "title": "Bibliothèque Sbihi",
+        "lat": 34.0295,
+        "lon": -6.83595,
+        "dist": 1092.8,
+        "primary": ""
+      },
+      {
+        "pageid": 16194420,
+        "ns": 0,
+        "title": "Mosquée As-Sunna",
+        "lat": 34.013621850597,
+        "lon": -6.8331101918534,
+        "dist": 1127.5,
+        "primary": ""
+      },
+      {
+        "pageid": 5432215,
+        "ns": 0,
+        "title": "Phare de Rabat",
+        "lat": 34.03139,
+        "lon": -6.8444,
+        "dist": 1195.6,
+        "primary": ""
+      },
+      {
+        "pageid": 1796369,
+        "ns": 0,
+        "title": "Musée des Oudayas",
+        "lat": 34.030462,
+        "lon": -6.835716,
+        "dist": 1197.4,
+        "primary": ""
+      },
+      {
+        "pageid": 6957383,
+        "ns": 0,
+        "title": "Borj Sirat",
+        "lat": 34.031498,
+        "lon": -6.844068,
+        "dist": 1201.3,
+        "primary": ""
+      },
+      {
+        "pageid": 961062,
+        "ns": 0,
+        "title": "Stade du FUS",
+        "lat": 34.009901,
+        "lon": -6.840279,
+        "dist": 1227.6,
+        "primary": ""
+      },
+      {
+        "pageid": 13756102,
+        "ns": 0,
+        "title": "Mellah de Rabat",
+        "lat": 34.026512301123,
+        "lon": -6.8301403462778,
+        "dist": 1231.7,
+        "primary": ""
+      },
+      {
+        "pageid": 7291185,
+        "ns": 0,
+        "title": "Musée de l'histoire et des civilisations de Rabat",
+        "lat": 34.01361111,
+        "lon": -6.83138889,
+        "dist": 1244.2,
+        "primary": ""
+      },
+      {
+        "pageid": 9358098,
+        "ns": 0,
+        "title": "Lycée Hassan-II",
+        "lat": 34.0194522,
+        "lon": -6.828196,
+        "dist": 1250.1,
+        "primary": ""
+      },
+      {
+        "pageid": 15667588,
+        "ns": 0,
+        "title": "Ambassade de Pologne au Maroc",
+        "lat": 34.009277777778,
+        "lon": -6.8439722222222,
+        "dist": 1308,
+        "primary": ""
+      },
+      {
+        "pageid": 324863,
+        "ns": 0,
+        "title": "Kasbah des Oudayas",
+        "lat": 34.031808,
+        "lon": -6.836097,
+        "dist": 1318.3,
+        "primary": ""
+      }
+    ]
+  }
+}
